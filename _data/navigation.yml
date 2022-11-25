@@ -1,0 +1,35 @@
+main:
+  - title: "Installation"
+    url: /init/installation
+
+  - title: "Features"
+    url: /features/instances
+
+project:
+  - title: Getting Started
+    children:
+      - title: "Installation"
+        url: /project/installation
+      - title: "Module Configuration"
+        url: /project/module
+
+features:
+  - title: Kdb Instances
+    children:
+      - title: "Scopes Management"
+        url: /features/instances
+
+  - title: Kdb Console
+    children:
+      - title: "Default View"
+        url: /features/console
+
+  - title: Kdb Inspector
+    children:
+      - title: "Configuration"
+        url: /features/inspector
+
+  - title: File Structure
+    children:
+      - title: "Configuration"
+        url: /features/structure
