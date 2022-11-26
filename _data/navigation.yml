@@ -1,17 +1,42 @@
 main:
   - title: "Installation"
-    url: /init/installation
+    url: /project/installation
 
-  - title: "Features"
+  - title: "Instances"
     url: /features/instances
+
+  - title: "Console"
+    url: /features/console
+
+  - title: "Inspector"
+    url: /features/inspector
+
+  - title: "Structure"
+    url: /features/structure
+
+  - title: "Editor"
+    url: /features/editor
 
 project:
   - title: Getting Started
     children:
       - title: "Installation"
         url: /project/installation
-      - title: "Module Configuration"
+
+      - title: "New Project"
+        url: /project/project
+
+      - title: "Module Settings"
         url: /project/module
+
+      - title: "Framework Creation"
+        url: /project/framework
+
+      - title: "SDK Creation"
+        url: /project/sdk
+
+      - title: "Afterwords"
+        url: /project/afterwords
 
 features:
   - title: Kdb Instances

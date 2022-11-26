@@ -3,8 +3,8 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/home-page.jpg
+  overlay_color: "#7c7b80"
+  overlay_image: /assets/images/splash.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Get Plugin Now"
       url: "https://plugins.jetbrains.com/plugin/16746-kdbinsidebrains"
@@ -21,7 +21,7 @@ feature_row:
     url: "/project/module"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - 
+   
   - image_path: /assets/images/free.png
     alt: "100% free"
     title: "100% free"
