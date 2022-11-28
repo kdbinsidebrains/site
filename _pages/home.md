@@ -17,16 +17,16 @@ feature_row:
   - image_path: /assets/images/flexible.png
     alt: "flexible"
     title: "Flexible Setup"
-    excerpt: "Source code can be added as new module or as a facet/framework to exist module with Q source code."
-    url: "/project/module"
+    excerpt: "Easily create new project and add the framework to any exist one. Be flexible with your configuration."
+    url: "/project/start"
     btn_class: "btn--primary"
     btn_label: "Learn more"
    
   - image_path: /assets/images/free.png
     alt: "100% free"
     title: "100% free"
-    excerpt: "Free to use and fully compatible with open source Community Edition"
-    url: "https://www.jetbrains.com/idea/download"
+    excerpt: "Free to use and fully compatible with JetBrains IDEA Community Edition that can be used anywhere."
+    url: "/about"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---

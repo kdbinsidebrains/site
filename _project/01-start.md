@@ -1,17 +1,17 @@
 ---
 title: "Installation"
-permalink: /project/installation
+permalink: /project/start
 excerpt: "KdbInsideBrain plugin installation process"
 toc: true
 ---
 
-# IDE Installation
+## IDE Installation
 
 KdbInsideBrains is a plugin for [IntelliJ IDEA IDE by JetBrains](https://www.jetbrains.com/idea/). To be able to install
 the plugin you have to download and install [Ultimate](https://www.jetbrains.com/idea/download/)
 or [free Community Edition](https://www.jetbrains.com/idea/download/) version of the IDE.
 
-# Plugin installation
+## Plugin installation
 
 It's always a good idea to check latest official docs how to install plugins in JetBrains
 IDEA: [https://www.jetbrains.com/help/idea/managing-plugins.html]()

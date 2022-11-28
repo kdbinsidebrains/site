@@ -1,60 +1,74 @@
 main:
-  - title: "Installation"
-    url: /project/installation
+  - title: "Getting Started"
+    url: /project/start
 
-  - title: "Instances"
+  - title: "About"
+    url: /about
+
+  - title: "Features"
     url: /features/instances
 
-  - title: "Console"
-    url: /features/console
+  - title: "Settings"
+    url: /settings/language
 
-  - title: "Inspector"
-    url: /features/inspector
-
-  - title: "Structure"
-    url: /features/structure
-
-  - title: "Editor"
-    url: /features/editor
-
-project:
+sidenav:
   - title: Getting Started
     children:
-      - title: "Installation"
-        url: /project/installation
+      - title: "IDEA & Plugin"
+        url: /project/start
 
-      - title: "New Project"
-        url: /project/project
+      - title: "Create Project"
+        url: /project/create
 
-      - title: "Module Settings"
+      - title: "Setup Module"
         url: /project/module
 
-      - title: "Framework Creation"
+      - title: "Setup Framework"
         url: /project/framework
 
-      - title: "SDK Creation"
+      - title: "Setup KDB SDK"
         url: /project/sdk
 
-      - title: "Afterwords"
-        url: /project/afterwords
-
-features:
-  - title: Kdb Instances
+  - title: Features
     children:
-      - title: "Scopes Management"
+      - title: "Instances"
         url: /features/instances
 
-  - title: Kdb Console
-    children:
-      - title: "Default View"
+      - title: "Console"
         url: /features/console
 
-  - title: Kdb Inspector
-    children:
-      - title: "Configuration"
+      - title: "Inspector"
         url: /features/inspector
 
-  - title: File Structure
-    children:
-      - title: "Configuration"
+      - title: "Structure"
         url: /features/structure
+
+      - title: "Editor"
+        url: /features/editor
+
+  - title: Settings
+    children:
+      - title: "Language"
+        url: /settings/language
+
+      - title: "Color Schema"
+        url: /settings/colors
+
+      - title: "Code Style"
+        url: /settings/style
+
+      - title: "Inspections"
+        url: /settings/inspections
+
+      - title: "Notifications"
+        url: /settings/notifications
+
+  - title: About
+    children:
+      - title: "Features"
+        url: /about#notable-features
+
+      - title: "Feel grateful?"
+        url: /about#feel-grateful
+
+

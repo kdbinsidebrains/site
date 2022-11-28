@@ -16,8 +16,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search: true # true, false (default)
+search_full_content: true # true, false (default)
 #search_provider          : algolia # lunr (default), algolia
 #algolia:
 #  application_id         : # YOUR_APPLICATION_ID
@@ -37,28 +37,17 @@ include:
   - _pages
   - _project
   - _features
+  - _settings
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
   - CHANGELOG
   - config
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
   - LICENSE
   - log
-  - node_modules
-  - package.json
-  - Rakefile
   - README
   - tmp
 keep_files:
@@ -81,6 +70,18 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kdbinsidebrains/plugin"
+
+    - label: "Plugin"
+      icon: "fa fa-fw fa-play"
+      url: "https://plugins.jetbrains.com/plugin/16746-kdbinsidebrains"
+
+    - label: "Issue"
+      icon: "fa fa-fw fa-bug"
+      url: "https://github.com/kdbinsidebrains/plugin/issues"
+
+    - label: "Donation"
+      icon: "fab fa-fw fa-paypal"
+      url: "https://www.paypal.com/donate/?hosted_button_id=C3LPP5FJ9T5NJ"
 
 # Conversion
 markdown: kramdown
@@ -107,6 +108,9 @@ collections:
   features:
     output: true
     permalink: /:collection/:path
+  settings:
+    output: true
+    permalink: /:collection/:path
 
 defaults:
   # _pages
@@ -116,20 +120,29 @@ defaults:
     values:
       layout: single
 
-    # _init
+  # _project
   - scope:
-      path: ""
+      path: "_project"
       type: project
     values:
       layout: single
       sidebar:
-        nav: "project"
+        nav: "sidenav"
 
   # _features
   - scope:
-      path: ""
+      path: "_features"
       type: features
     values:
       layout: single
       sidebar:
-        nav: "features"
+        nav: "sidenav"
+
+  # _settings
+  - scope:
+      path: "_settings"
+      type: settings
+    values:
+      layout: single
+      sidebar:
+        nav: "sidenav"
