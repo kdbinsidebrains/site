@@ -17,45 +17,48 @@ sidenav:
       - title: "IDEA & Plugin"
         url: /project/start
 
-      - title: "Create Project"
+      - title: "New Project"
         url: /project/create
 
       - title: "Setup Module"
         url: /project/module
 
-      - title: "Setup Framework"
-        url: /project/framework
-
       - title: "Setup KDB SDK"
         url: /project/sdk
+
+      - title: "Run configuration"
+        url: /project/run
 
   - title: Features
     children:
       - title: "Instances"
-        url: /features/instances
+        url: /features/instances/overview
 
       - title: "Console"
-        url: /features/console
+        url: /features/console/overview
+
+      - title: "Code Editor"
+        url: /features/editor/overview
+
+      - title: "File Structure"
+        url: /features/structure/overview
 
       - title: "Inspector"
-        url: /features/inspector
-
-      - title: "Structure"
-        url: /features/structure
-
-      - title: "Editor"
-        url: /features/editor
+        url: /features/inspector/overview
 
   - title: Settings
     children:
       - title: "Language"
         url: /settings/language
 
-      - title: "Color Schema"
-        url: /settings/colors
+      - title: "Authentication"
+        url: /settings/authentication
 
       - title: "Code Style"
         url: /settings/style
+
+      - title: "Color Schema"
+        url: /settings/colors
 
       - title: "Inspections"
         url: /settings/inspections

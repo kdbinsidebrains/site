@@ -1,5 +1,5 @@
 title: KdbInsideBrains
-subtitle: IntelliJ Idea Plugin for KDB+
+subtitle: IntelliJ IDEA Plugin for KDB+
 
 url: "https://www.kdbinsidebrains.dev"
 email: support@kdbinsidebrains.dev
@@ -107,7 +107,7 @@ collections:
     permalink: /:collection/:path
   features:
     output: true
-    permalink: /:collection/:path
+    permalink: /:collection/:collection/:path
   settings:
     output: true
     permalink: /:collection/:path

@@ -1,6 +1,6 @@
 ---
-title: "Structure"
-permalink: /features/structure
+title: "Inspector"
+permalink: /features/inspector/overview
 excerpt: "How the theme is organized and what all of the files are for."
 toc: true
 ---

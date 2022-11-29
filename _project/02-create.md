@@ -38,6 +38,7 @@ start local KDB process on local workstation for testing.
 
 You can skip this step and add it later and go to the next step or please
 check [how to set up KDB+ Q SDK](/project/sdk).
+{: .notice}
 
 ### Project Location
 
@@ -52,9 +53,6 @@ modules: [https://www.jetbrains.com/help/idea/creating-and-managing-modules.html
 
 You also can find which project formats are the best for you in the official
 docs: [https://www.jetbrains.com/help/idea/creating-and-managing-projects.html#project-formats]()
-
-Your new project is ready! Please move to [Scopes & Instances definition](/features/scopes) to create your first
-connection to real KDB instance and do simple query.
 
 ## From Exist Sources
 
