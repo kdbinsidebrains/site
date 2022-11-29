@@ -26,7 +26,7 @@ sidenav:
       - title: "Setup KDB SDK"
         url: /project/sdk
 
-      - title: "Run configuration"
+      - title: "Run Configuration"
         url: /project/run
 
   - title: Features

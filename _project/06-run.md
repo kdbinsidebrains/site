@@ -1,5 +1,5 @@
 ---
-title: "Run configuration"
+title: "Run Configuration"
 permalink: /project/run
 excerpt: "Create new runnable KDB configuration"
 toc: true
