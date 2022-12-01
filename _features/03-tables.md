@@ -9,7 +9,7 @@ toc: true
 
 _Table Result_ view is most powerful and complex part of the plugin and have set of elements and toolbars:
 
-![tablesPreview](../assets/images/features/tables/tablesPreview.png)
+![tablesPreview](/assets/images/features/tables/tablesPreview.png)
 
 There you can see:
 
@@ -30,13 +30,13 @@ You can select range of cells:
 - by dragging with left mouse button pressed
 - by selecting the first cell and the last cell in the range with pressed _Shift_ button
 - only subset of rows/columns by holding _Ctrl button_:<br>
-  ![tablesCustomSelection](../assets/images/features/tables/tablesCustomSelection.png)
+  ![tablesCustomSelection](/assets/images/features/tables/tablesCustomSelection.png)
 
 ## Status Bar
 
 StatusBase is located at the bottom of the _Table Result View_
 
-![tablesStatusBar](../assets/images/features/tables/tablesStatusBar.png)
+![tablesStatusBar](/assets/images/features/tables/tablesStatusBar.png)
 
 and shows in the following sequence:
 
@@ -51,7 +51,7 @@ and shows in the following sequence:
 
 The _Table Result View_ has _Repeat the Query_ functionality available in
 
-![tablesRepeatQuery](../assets/images/features/tables/tablesRepeatQuery.png)
+![tablesRepeatQuery](/assets/images/features/tables/tablesRepeatQuery.png)
 
 This functionality is available only if the _Table Result_ is related to KDB result from real instance. The button is
 not available for imported or flipped tables, for exmaple.
@@ -75,7 +75,7 @@ There are some functionality that is not available though any menu but available
 
 You can also copy whole table or only selected cells with pop-up menu or appropriate buttons in the main toolbar:
 
-![tablesCopyValues](../assets/images/features/tables/tablesCopyValues.png)
+![tablesCopyValues](/assets/images/features/tables/tablesCopyValues.png)
 
 The table is copied in HTML format and can be pasted into any application that supports HTML formatting; otherwise its
 copied as plain text.
@@ -89,7 +89,7 @@ You can copy select together with column names (by default) or without the heade
 In case if your result table has too many columns, it could be faster just hide some of them in the _Table Result_.
 You can use columns filter button on the right side of the view to enabled it:
 
-![tablesFilterColumns](../assets/images/features/tables/tablesFilterColumns.png)
+![tablesFilterColumns](/assets/images/features/tables/tablesFilterColumns.png)
 
 Start typing a column name for fast search it in the filter.
 {: .notice--info}
@@ -99,7 +99,7 @@ Start typing a column name for fast search it in the filter.
 Like for columns filtering, instead of create new query to KDB you can do quick search in the _Table Result_. You can
 enable it by _Ctrl+F_ or from main toolbar:
 
-![tableFilterContent](../assets/images/features/tables/tableFilterContent.png)
+![tableFilterContent](/assets/images/features/tables/tableFilterContent.png)
 
 The entire table is searched and there is no possibility to specify which columns to use, but you can search matching
 case, whole word or even by RegEx.
@@ -123,13 +123,13 @@ In this case the plugin tries to export data types as well, if it's possible.
 
 You can also store the data into some other formats, like CSV or binary format:
 
-![tablesExport](../assets/images/features/tables/tablesExport.png)
+![tablesExport](/assets/images/features/tables/tablesExport.png)
 
 ### Send to Instance
 
 You can set the original data received from KDB Instance as is into another KDB Instance:
 
-![tablesSendToInstance](../assets/images/features/tables/tablesSendToInstance.png)
+![tablesSendToInstance](/assets/images/features/tables/tablesSendToInstance.png)
 
 You must be connected to the instance before sending data.
 {: .notice--info}
@@ -138,7 +138,7 @@ You must be connected to the instance before sending data.
 
 By default, only original data is shown in the table, but you can enable index column in the main toolbar:
 
-![tablesIndexColumn](../assets/images/features/tables/tablesIndexColumn.png)
+![tablesIndexColumn](/assets/images/features/tables/tablesIndexColumn.png)
 
 You can use index column for quick row or set of rows selection.
 {: .notice--info}
@@ -152,7 +152,7 @@ From time to time it may be useful to look at the data from a different angle.
 
 Exactly in this case you can use 'Flip Selected Rows' that opens new tab and transpose selected rows into columns:
 
-![tablesFlipRows](../assets/images/features/tables/tablesFlipRows.png)
+![tablesFlipRows](/assets/images/features/tables/tablesFlipRows.png)
 
 There a row #9 has been flipped into table where each column is a row now and row is a column.
 
