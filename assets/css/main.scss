@@ -16,4 +16,8 @@ search: false
   p, li, dl {
     font-size: 0.8em;
   }
+
+  li p, dl p {
+    font-size: 1em;
+  }
 }
