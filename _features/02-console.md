@@ -66,6 +66,9 @@ where:
 
 Depends on your working place one or another layout may be more suitable for you.
 
+You can change default layout for all _Console Views_ in [Configuration Options](/settings/options).
+{: .notice--info}
+
 ## Rename/Pin Tab
 
 By default, each instance has only one _Table Result_ tab that is updating each time when new table/dict/vector is
