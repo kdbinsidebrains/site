@@ -32,19 +32,25 @@ sidenav:
   - title: Features
     children:
       - title: "Instances"
-        url: /features/instances/overview
+        url: /features/instances
 
       - title: "Console"
-        url: /features/console/overview
+        url: /features/console
+
+      - title: "Tables"
+        url: /features/tables
+
+      - title: "Charting"
+        url: /features/charting
 
       - title: "Code Editor"
-        url: /features/editor/overview
+        url: /features/editor
 
       - title: "File Structure"
-        url: /features/structure/overview
+        url: /features/structure
 
       - title: "Inspector"
-        url: /features/inspector/overview
+        url: /features/inspector
 
   - title: Settings
     children:

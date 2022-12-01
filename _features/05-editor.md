@@ -1,6 +1,6 @@
 ---
 title: "Code Editor"
-permalink: /features/editor/overview
+permalink: /features/editor
 excerpt: ""
 toc: true
 ---

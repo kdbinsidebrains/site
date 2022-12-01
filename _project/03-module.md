@@ -13,19 +13,19 @@ you can change your project structure and do module setup manually.
 Just open [project structure](https://www.jetbrains.com/help/idea/project-settings-and-structure.html) dialog and select
 modules tab there:
 
-![moduleStructure](moduleStructure.png)
+![moduleStructure](/assets/images/project/module/moduleStructure.png)
 
 ## Create Module
 
 If you need new module for Q code, there is nothinge more simple rathen than press + (plus) button at the modules'
 toolbar and choose 'KDB+ Q' module type:
 
-![moduleCreateSDK](moduleCreateSDK.png)
+![moduleCreateSDK](/assets/images/project/module/moduleCreateSDK.png)
 
 Like in [project creation](/project/create#blank-project), you can select [KDB SDK](/project/sdk), if required, and
 provide new module name and path at the next step:
 
-![moduleCreatePath](moduleCreatePath.png)
+![moduleCreatePath](/assets/images/project/module/moduleCreatePath.png)
 
 If you already have a KDB Module you can import it the same way. Just choose 'Import Module' and go through the same
 steps.
@@ -36,11 +36,11 @@ steps.
 If you already have a module of another (java or mixed), you can just add 'KDB+ Q Language' framework to it. Just
 right-click on the module, select 'Add' and 'KDB+ Q Language' at the end:
 
-![frameworkAdd](frameworkAdd.png)
+![frameworkAdd](/assets/images/project/module/frameworkAdd.png)
 
 Please note, to be able to [run](/project/run) any Q file in local KDB instance the module must
 have [KDB SDK](/project/sdk) set as the module SDK:<br><br>
-![moduleStructure](moduleStructure.png)
+![moduleStructure](/assets/images/project/module/moduleStructure.png)
 {: .notice--warning}
 
 ## Module Content
@@ -61,4 +61,4 @@ will be resolved to the module's source directories.
 
 If module has no 'source' folders, its 'Content root' will be used instead.
 
-![moduleContent](moduleContent.png)
+![moduleContent](/assets/images/project/module/moduleContent.png)

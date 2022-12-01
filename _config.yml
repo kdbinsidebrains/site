@@ -107,7 +107,7 @@ collections:
     permalink: /:collection/:path
   features:
     output: true
-    permalink: /:collection/:collection/:path
+    permalink: /:collection/:path
   settings:
     output: true
     permalink: /:collection/:path
@@ -122,7 +122,7 @@ defaults:
 
   # _project
   - scope:
-      path: "_project"
+      path: ""
       type: project
     values:
       layout: single
@@ -131,7 +131,7 @@ defaults:
 
   # _features
   - scope:
-      path: "_features"
+      path: ""
       type: features
     values:
       layout: single
@@ -140,7 +140,7 @@ defaults:
 
   # _settings
   - scope:
-      path: "_settings"
+      path: ""
       type: settings
     values:
       layout: single

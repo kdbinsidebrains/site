@@ -14,7 +14,7 @@ You must set up correct [KDB SDK](/project/sdk) for your project or module.
 
 Just right-click on any Q file in the project tree and select 'Run <filename>' menu:
 
-![runFromProject](runFromProject.png)
+![runFromProject](/assets/images/project/run/runFromProject.png)
 
 IDEA provides ability to run a process in _'Debug'_ mode or _'Run tests Coverage'_. For KDB process there is no
 difference and any of the options just start local KDB instance.  
@@ -29,7 +29,7 @@ folder is set correctly.
 When you start new process from the project tree, all required parameters are taken from module configuration and KDB
 SDK, but you can change all of them or add more parameters with 'Modify Run Configuration':
 
-![runModifyMenu](runModifyMenu.png)
+![runModifyMenu](/assets/images/project/run/runModifyMenu.png)
 
 and in opened dialog you can set:
 - Name of the run (you can select the process by the name from 'Run' menu)
@@ -39,8 +39,8 @@ and in opened dialog you can set:
 - Working directory that will be used as the root for the file
 - Environment variables
 
-![runModifySetup](runModifySetup.png)
+![runModifySetup](/assets/images/project/run/runModifySetup.png)
 
 You can modify all these arguments later in Run/Debug Configuration dialog available from main menu:
-![runEditConfiguration](runEditConfiguration.png)
+![runEditConfiguration](/assets/images/project/run/runEditConfiguration.png)
 {: .notice--info}
