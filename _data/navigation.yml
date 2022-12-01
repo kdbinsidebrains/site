@@ -9,7 +9,7 @@ main:
     url: /features/instances
 
   - title: "Settings"
-    url: /settings/language
+    url: /settings/options
 
 sidenav:
   - title: Getting Started
@@ -54,8 +54,8 @@ sidenav:
 
   - title: Settings
     children:
-      - title: "Language"
-        url: /settings/language
+      - title: "Options"
+        url: /settings/options
 
       - title: "Authentication"
         url: /settings/authentication
