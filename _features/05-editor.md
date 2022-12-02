@@ -52,7 +52,7 @@ execution type for code editing.
 
 Let's suppose you work on a complex function with some inner function:
 
-~~~
+~~~ q
 .my.func:{[x;y]
     f:{[x;y] x+y};
     :f[x;y];

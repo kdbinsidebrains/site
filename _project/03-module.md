@@ -52,7 +52,7 @@ Even the IDEA has many content types, like 'source', 'tests', 'resources' and so
 for KDB module and everything under 'source' is treated as the module root. 
 
 All file loads and like
-~~~
+~~~ q
 \l code/log.q
 \l code/config.q
 \l code/tables.q

@@ -11,6 +11,9 @@ main:
   - title: "Settings"
     url: /settings/options
 
+  - title: "Tricks"
+    url: /tricks
+
 sidenav:
   - title: Getting Started
     children:
@@ -71,6 +74,9 @@ sidenav:
 
       - title: "Notifications"
         url: /settings/notifications
+
+  - title: Tricks
+    url: /tricks
 
   - title: About
     children:

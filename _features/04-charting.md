@@ -51,7 +51,7 @@ open and close in the thick body; high and low in the “candle wick”.
 
 For example, you can create candlestick data source for trades base as:
 
-~~~
+~~~ q
 select o:first price, h:max price, l:min price, c:last price, sum size by 3600000 xbar `time$time from trade
 ~~~
 
