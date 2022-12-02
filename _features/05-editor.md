@@ -145,3 +145,11 @@ This functionality works for custom variables and system functions as well:
 Documentations for system functions are supported manually and hardcoded in the plugin. If something is wrong - let us
 know.
 {: .notice--info}
+
+### Auto-Formatting
+
+The plugin supports auto-code formatting. Please use appropriate _Code_ menu items or hot keys to force auto-formatting:
+
+![editorFormattingMenu](/assets/images/features/editor/editorFormattingMenu.png)
+
+Please check [auto-formatting style](/settings/style) to find out more about rules or change required parameters.
