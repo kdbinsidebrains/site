@@ -38,4 +38,4 @@ CredentialsProvider: <your class>
 ~~~
 
 There is a small example created that does nothing but could be a good
-start: [https://github.com/kdbinsidebrains/credentials]()
+start: [https://github.com/kdbinsidebrains/credentials](https://github.com/kdbinsidebrains/credentials)

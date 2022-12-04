@@ -14,7 +14,7 @@ or [free Community Edition](https://www.jetbrains.com/idea/download/) version of
 ## Plugin installation
 
 It's always a good idea to check latest official docs how to install plugins in JetBrains
-IDEA: [https://www.jetbrains.com/help/idea/managing-plugins.html]()
+IDEA: [https://www.jetbrains.com/help/idea/managing-plugins.html](https://www.jetbrains.com/help/idea/managing-plugins.html)
 
 One of the benefits of the official docs - you can select your IDEA version to get correct version of the instruction in
 the top left corner of the page:

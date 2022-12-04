@@ -8,7 +8,7 @@ toc: true
 ## Create Project
 
 JetBrains have excellent docs how to create new
-projects: [https://www.jetbrains.com/help/idea/creating-and-managing-projects.html]().
+projects: [https://www.jetbrains.com/help/idea/creating-and-managing-projects.html](https://www.jetbrains.com/help/idea/creating-and-managing-projects.html).
 
 Depends on what you already have, you
 can [create new project](https://www.jetbrains.com/help/idea/new-project-wizard.html) or
@@ -49,10 +49,10 @@ that will update all dependant fields for you:
 
 Your project must have at least one module that contains definition of source code configuration. By default, module
 name equals to the project name but can be any. Please check JetBrains docs to get more info about
-modules: [https://www.jetbrains.com/help/idea/creating-and-managing-modules.html]()
+modules: [https://www.jetbrains.com/help/idea/creating-and-managing-modules.html](https://www.jetbrains.com/help/idea/creating-and-managing-modules.html)
 
 You also can find which project formats are the best for you in the official
-docs: [https://www.jetbrains.com/help/idea/creating-and-managing-projects.html#project-formats]()
+docs: [https://www.jetbrains.com/help/idea/creating-and-managing-projects.html#project-formats](https://www.jetbrains.com/help/idea/creating-and-managing-projects.html#project-formats)
 
 ## From Exist Sources
 
@@ -78,7 +78,7 @@ As it's Kdb project, probably you don't use Maven or Gradle or any other Java bu
 
 Like for new project, you have to choose project name (that is the folder name by default) and location as well. You
 also can find which project formats are the best for you in the official
-docs: [https://www.jetbrains.com/help/idea/creating-and-managing-projects.html#project-formats]()
+docs: [https://www.jetbrains.com/help/idea/creating-and-managing-projects.html#project-formats](https://www.jetbrains.com/help/idea/creating-and-managing-projects.html#project-formats)
 
 ![existCodeImportName](/assets/images/project/create/existCodeImportName.png)
 

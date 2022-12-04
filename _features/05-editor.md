@@ -8,7 +8,7 @@ toc: true
 ## Overview
 
 The best way to get know the _Code Editor_ is to check the official
-documentation: [https://www.jetbrains.com/help/idea/working-with-source-code.html]()
+documentation: [https://www.jetbrains.com/help/idea/working-with-source-code.html](https://www.jetbrains.com/help/idea/working-with-source-code.html)
 
 Not all features are applicable to Q language but most of them are. Here we will concentrate only on specific
 functionality of the plugin.
