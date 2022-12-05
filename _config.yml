@@ -59,7 +59,6 @@ analytics:
   provider: "google"
   google:
     tracking_id: "G-NBP5DJD8YK"
-    anonymize_ip: false
 
 google_site_verification: "hfSMgHF5JQquc-Sk0qzuihyneHHrfpiRLXwfz3fkICw"
 
