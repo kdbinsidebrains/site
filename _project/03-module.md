@@ -49,16 +49,42 @@ One of the most important thing about modules - how to define its structure and 
 ability to run and scan Q files.
 
 Even the IDEA has many content types, like 'source', 'tests', 'resources' and so on, for now only 'source' makes sense
-for KDB module and everything under 'source' is treated as the module root. 
+for KDB module and everything under 'source' is treated as the module root.
 
 All file loads and like
+
 ~~~ q
 \l code/log.q
 \l code/config.q
 \l code/tables.q
 ~~~
+
 will be resolved to the module's source directories.
 
 If module has no 'source' folders, its 'Content root' will be used instead.
 
 ![moduleContent](/assets/images/project/module/moduleContent.png)
+
+## External Dependencies
+
+Another ability to manage a module content is add an internal or external dependency. For example, if you have
+multy-modules project or your project depends on external code.
+
+In [project structure](https://www.jetbrains.com/help/idea/project-settings-and-structure.html) dialog you can see
+separate tab for _Libraries_ and here you can define new _KDB+ Q_ library as well:
+
+![moduleLibrary](/assets/images/project/module/moduleLibrary.png)
+
+You can select a folder with Q files or a zip archive with KDB source code:
+
+![moduleLibrarySource](/assets/images/project/module/moduleLibrarySource.png)
+
+At the final step just choose which module new library should be attached to and that's it:
+
+![moduleLibraryTargets](/assets/images/project/module/moduleLibraryTargets.png)
+
+Your library will be scanned and attached to you project:
+
+![moduleLibraryTree](/assets/images/project/module/moduleLibraryTree.png)
+
+any usage of a function from external files will be resolved to the library as it would be in your project.
