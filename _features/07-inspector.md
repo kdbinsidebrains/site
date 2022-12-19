@@ -2,6 +2,7 @@
 title: "Inspector"
 permalink: /features/inspector
 excerpt: "Inspect/Scan real KDB instance and get all defined variables/functions and tables in one place"
+toc: true
 ---
 
 ## Overview
