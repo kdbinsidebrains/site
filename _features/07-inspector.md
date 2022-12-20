@@ -69,10 +69,24 @@ with content of the source code.
 
 ![inspectorExecute](/assets/images/features/inspector/inspectorExecute.png)
 
+## Code Difference
+
+When you have a function defined in your source code that is also defined in the instance, you can use 'Diff'
+functionality compare exist source code with actual implementation by _Ctrl+D_ or context menu:
+
+![inspectorDiffMenu](../assets/images/features/inspector/inspectorDiffMenu.png)
+
+The Diff works only for functions (object type 100) as make no sense for any other types.
+
+New diff tab will be opened in the main editor to show you the difference:
+![inspectorDiffContent](../assets/images/features/inspector/inspectorDiffContent.png)
+
+It could be a good idea to ignore white-spaces as KDB can do post-processing and remove some spaces.
+{: .notice--info}
+
 ## Code Completion
 
 If you have active Inspector with loaded structure, the content of the inspector is used to get completion variables and
 the source is indicated as _inspector_:
 
 ![inspectorCompletion](/assets/images/features/inspector/inspectorCompletion.png)
-
