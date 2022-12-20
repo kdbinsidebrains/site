@@ -51,7 +51,7 @@ When the Inspector tree is in focus, just start typing a varibale/table or funct
 
 ![inspectorSearch](/assets/images/features/inspector/inspectorSearch.png)
 
-## View Value
+## Query Value
 
 _Double-click_ or _Enter_ on an item will query its value and show result in [Console](/features/console):
 
@@ -74,12 +74,12 @@ with content of the source code.
 When you have a function defined in your source code that is also defined in the instance, you can use 'Diff'
 functionality compare exist source code with actual implementation by _Ctrl+D_ or context menu:
 
-![inspectorDiffMenu](../assets/images/features/inspector/inspectorDiffMenu.png)
+![inspectorDiffMenu](/assets/images/features/inspector/inspectorDiffMenu.png)
 
 The Diff works only for functions (object type 100) as make no sense for any other types.
 
 New diff tab will be opened in the main editor to show you the difference:
-![inspectorDiffContent](../assets/images/features/inspector/inspectorDiffContent.png)
+![inspectorDiffContent](/assets/images/features/inspector/inspectorDiffContent.png)
 
 It could be a good idea to ignore white-spaces as KDB can do post-processing and remove some spaces.
 {: .notice--info}
