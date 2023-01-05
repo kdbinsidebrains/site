@@ -50,6 +50,7 @@ exclude:
   - log
   - README
   - tmp
+  - vendor
 keep_files:
   - .git
 encoding: UTF-8
