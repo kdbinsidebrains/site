@@ -61,11 +61,67 @@ We can build candlestick like:
 Of course, the same data can be shown as a line chart, but it's much less informative:
 ![chartingCandleWrong](/assets/images/features/charting/chartingCandleWrong.png)
 
-## Zoom and Move
+## Interaction
 
 You can use left mouse button drag to move the chart inside the frame.
 
 You can use right mouse button drag to zoom an area of a chart.
+
+## Templates
+
+### Overview
+
+**Chart Templates** functionality allows you to create a template based on current chart and simple select the template
+for the same dataset to draw a chart.
+
+A _Chart Template_ identifies set of columns and other chart settings. You can apply a template only to a dataset with
+that contains all columns required by the template. Templates which can't be applied to current dataset are not shown in
+the combobox and available only in _Templates Manager_.
+
+You can select a template for a dataset from combobox element in **Chart Dialog** in the top right corner:
+
+![templatesComboBox](/assets/images/features/charting/templatesComboBox.png)
+
+### Creating Template
+
+You can create new template for a valid chart with _'Create Template'_ button located in the right bottom corner of
+chart's configuration panel:
+
+![templateCreate.png](/assets/images/features/charting/templateCreate.png)
+
+The button is disabled of the chart configuration is not correct.
+
+When a template is already selected, the button is changed to _'Update Template'_ and updates active template instead
+of creating new one.
+
+You can create new template based on already defined by selecting based templated in the _Templates_ combobox and when
+selecting _'No template'_ value. When _'No Template'_ is selected, current configuration is not retested and can be used
+for new template.
+{: .notice--info}
+
+### Templates Manager
+
+You can view and remove exist templates with _Templates Manager_ that can be invoked from the _Chart Dialog_:
+
+![templateManagerButton](/assets/images/features/charting/templateManagerButton.png)
+
+or from [Table Result](/features/tables) pop-up menu:
+
+![templateManagerTableResult](/assets/images/features/charting/templateManagerTableResult.png)
+
+In the _Templates Manager_ you can rename or change description of any template as well as check its configuration. You
+can also remove permanently any template or hide it from quick popup actions:
+
+![templatesManager](/assets/images/features/charting/templatesManager.png)
+
+### Quick Actions
+
+When 'quick popup actions' is enabled for a template at creation time or later in the _Templates Manager_, appropriate
+template will be shown in quick popup menu shown in [Table Result](/features/tables):
+
+![templateManagerTableResult](/assets/images/features/charting/templateManagerTableResult.png)
+
+Selecting the template will create new Chart Dialog based on the template.
 
 ## Charting Tools
 
