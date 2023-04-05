@@ -55,6 +55,9 @@ sidenav:
       - title: "Inspector"
         url: /features/inspector
 
+      - title: "Analysis"
+        url: /features/analysis
+
   - title: Settings
     children:
       - title: "Options"
