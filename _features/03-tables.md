@@ -84,16 +84,6 @@ You can copy select together with column names (by default) or without the heade
 
 ## Data Filtering
 
-### Filter columns
-
-In case if your result table has too many columns, it could be faster just hide some of them in the _Table Result_.
-You can use columns filter button on the right side of the view to enabled it:
-
-![tablesFilterColumns](/assets/images/features/tables/tablesFilterColumns.png)
-
-Start typing a column name for fast search it in the filter.
-{: .notice--info}
-
 ### Filter Content
 
 Like for columns filtering, instead of create new query to KDB you can do quick search in the _Table Result_. You can
@@ -109,6 +99,16 @@ for any table that has more than 200_000 cells.
 'Delay Search' updates the table only after 300ms after last char has been entered. It allows to reduce UI freezes if
 you enter a search keyword, for exmaple.
 {: .notice}
+
+### Filter Columns
+
+In case if your result table has too many columns, it could be faster just hide some of them in the _Table Result_.
+You can use columns filter button on the right side of the view to enabled it:
+
+![tablesFilterColumns](/assets/images/features/tables/tablesFilterColumns.png)
+
+Start typing a column name for fast search it in the filter.
+{: .notice--info}
 
 ## Exporting Data
 
@@ -134,13 +134,31 @@ You can set the original data received from KDB Instance as is into another KDB 
 You must be connected to the instance before sending data.
 {: .notice--info}
 
-## Index Column
+## View Settings
 
-By default, only original data is shown in the table, but you can enable index column in the main toolbar:
+### Index Column
+
+By default, only original data is shown in the table, but you can enable index column in the secondary toolbar (or popup
+menu):
 
 ![tablesIndexColumn](/assets/images/features/tables/tablesIndexColumn.png)
 
 You can use index column for quick row or set of rows selection.
+{: .notice--info}
+
+You can enable Index Column by default in [configuration](/settings/options).
+{: .notice--info}
+
+### Thousands Separator
+
+By default, all numbers are presented in machine form, without thousands separation, so you can enable thousands
+separation in a 'Table Result' in
+the secondary toolbar (or popup menu):
+
+![tablesThousandsSeparator](/assets/images/features/tables/tablesThousandsSeparator.png)
+
+Thousands separation only shows in the 'Table Result' and copied into clipboard. Exporting data into Excel, CSV or any
+other format always use machine format.
 {: .notice--info}
 
 You can enable Index Column by default in [configuration](/settings/options).
