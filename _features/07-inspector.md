@@ -22,6 +22,8 @@ You can enable/disable grouping and filtering options in the tool window toolbar
 An instance is enquired only one per session and switching between instances doesn't generate additional loading on an
 instance. You can see time of last update in the statusbar of the _Inspector_.
 
+## Permissions
+
 The _Inspector_ executes free-form query to load all information from an instance. You must allow the query on the
 server side if free-form queries are prohibited. You can find the latest query on
 the [plugin GitHub page](https://github.com/kdbinsidebrains/plugin/blob/main/src/main/resources/org/kdb/inside/brains/inspector.q)

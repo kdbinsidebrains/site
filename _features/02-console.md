@@ -23,11 +23,16 @@ sign in the title of the console windows:
 
 Each connected instance has many tabs in the console of two types:
 
-- **Console** tab is command line view where you can send commands to the instance and see its results
+- **Console** tab is command line view where you can send commands to the instance and see its results. If [Watches Panel](/features/watches) is enabled it's displayed in the right part of the console.
+
+![watches.png](/assets/images/features/console/consoleWatches.png)
+
 - **Table Result** and all other tabs - on demand tabs which shown when you have a table/dict/list as result or expand
-  any exist table result
+  any exist table result.
 
 ![consoleTabs](/assets/images/features/console/consoleTabs.png)
+
+Please check [Tables](/features/tables) secton to get more details.
 
 ## Toolboxes
 
@@ -37,6 +42,7 @@ There are many toolboxes in a _Console View_:
     - Connect/Disconnect the instance
     - Quickly change the instance settings, like name or connection parameters
     - Stop active query, if possible
+    - [Watches](/features/watches) expressions
     - Upload any file to the instance
     - Open local binary file with KDB data encoded into IPC format
     - Change the Console view layout with two options

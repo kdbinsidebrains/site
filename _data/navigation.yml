@@ -58,6 +58,9 @@ sidenav:
       - title: "Analysis"
         url: /features/analysis
 
+      - title: "Watches"
+        url: /features/watches
+
   - title: Settings
     children:
       - title: "Options"
