@@ -14,4 +14,4 @@ Just go to _File -> Settings -> Editor -> Code Style -> KDB+ Q_:
 ![styleOverview](/assets/images/settings/style/styleOverview.png)
 
 Please go through the settings yourself as it's better if you just try to change them. You don't have to apply and try
-each time as the IDEA provides ability to see result _online_. 
+each time as the IDEA provides an ability to see result _online_. 

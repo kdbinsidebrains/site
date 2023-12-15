@@ -6,8 +6,10 @@ toc: true
 ---
 
 ## Overview
+This functionality is available in _InelliJ IDEA_ product. In all other platforms this functionality is not available.
+{: .notice--warning}
 
-If you need to do local testing or just start a local KDB instance from IDEA you have to create new KDB+Q SDK if not
+If you need to do local testing or just start a local KDB instance from IDEA you have to create a new KDB+Q SDK if not
 done yet.
 
 ## Configuration
@@ -17,7 +19,7 @@ select 'SKDs' tab in 'Platform Settings' section where you can see all current S
 
 ![sdkSettings](/assets/images/project/sdk/sdkSettings.png)
 
-When just press add 'plus' button to create new one:
+When just press adds 'plus' button to create a new one:
 
 ![sdkCreating](/assets/images/project/sdk/sdkCreating.png)
 
@@ -25,7 +27,7 @@ and select home Q folder where QHOME environment variable is pointed to:
 
 ![sdkHomeFolder](/assets/images/project/sdk/sdkHomeFolder.png)
 
-and new KDB SDK will be added to configuration where you can always change any it's parameter:
+and new KDB SDK will be added to the configuration where you can always change any it's parameter:
 
 ![sdkOptions](/assets/images/project/sdk/sdkOptions.png)
 
@@ -38,6 +40,6 @@ Depends on your setup, you can select SDK for the whole project in the same proj
 ## Module SDK
 
 If you have multi-modules project with mix of language, you can select KDB SDK for particular module only. Just select
-appropriate module and required SDK on 'Dependencies' tab:
+the appropriate module and required SDK on 'Dependencies' tab:
 
 ![sdkModuleLevel](/assets/images/project/sdk/sdkModuleLevel.png)

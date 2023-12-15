@@ -4,7 +4,7 @@ permalink: /features/structure
 excerpt: "File Structure Tool Window"
 ---
 
-When you work with very complex code it could be quite hard to look up required function in a file or navigate thought
+When you work with very complex code, it could be quite hard to look up the required function in a file or navigate thought
 code in a file.
 
 The _Structure_ tool window is located in the bottom left corner and must be activated to show a file structure:

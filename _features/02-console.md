@@ -27,7 +27,7 @@ Each connected instance has many tabs in the console of two types:
 
 ![watches.png](/assets/images/features/console/consoleWatches.png)
 
-- **Table Result** and all other tabs - on demand tabs which shown when you have a table/dict/list as result or expand
+- **Table Result** and all other tabs - on demand tabs which are shown when you have a table/dict/list as a result or expand
   any exist table result.
 
 ![consoleTabs](/assets/images/features/console/consoleTabs.png)
@@ -64,13 +64,13 @@ check a table result and output of the console from the toolbox:
 
 where:
 
-- **Tabs view** - is default view when each result is located in separate tab
+- **Tabs view** - is default view when each result is located in a separate tab
 - **Split Down** - the console tab will be placed at the top but all Table Result tabs at the bottom:<br>
   ![consoleLayoutDown](/assets/images/features/console/consoleLayoutDown.png)
 - **Split Right** - the console tab will be placed on the top but all Table Result tabs on the right:<br>
   ![consoleLayoutRight](/assets/images/features/console/consoleLayoutRight.png)
 
-Depends on your working place one or another layout may be more suitable for you.
+Depends on your working place, one or another layout may be more suitable for you.
 
 You can change default layout for all _Console Views_ in [Configuration Options](/settings/options).
 {: .notice--info}
@@ -80,7 +80,7 @@ You can change default layout for all _Console Views_ in [Configuration Options]
 By default, each instance has only one _Table Result_ tab that is updating each time when new table/dict/vector is
 received, but you can pin any _Table Result_ by renaming the tab.
 
-Just double-click on a _Table Result_ header or right-click on it to see context menu:
+Just double-click on a _Table Result_ header or right-click on it to see the context menu:
 
 ![consoleRenameTab](/assets/images/features/console/consoleRenameTab.png)
 
@@ -95,11 +95,11 @@ probably it's time to close some tabs.
 ## Floating Results
 
 Although _Console_ tab is always pinned to the _Console View_, you can drop out and drag in any _Table Result_ tabs to
-create separated window:
+create a separated window:
 
 ![consoleFloatingResult](/assets/images/features/console/consoleFloatingResult.png)
 
-Each floated _Table Result_ has own context and expanding table cells will be opened as new tab of the window rather
+Each floated _Table Result_ has its own context, and expanding table cells will be opened as new tab of the window rather
 than in the _Console View_
 
 ## Uploading File
@@ -108,9 +108,9 @@ You can upload any local file to the instance with _Upload File_ functionality:
 
 ![consoleUploadFile](/assets/images/features/console/consoleUploadFile.png)
 
-There are two options how a file can be uploaded and that is driven by the option in uploading dialog:
+There are two options for how a file can be uploaded, and that is driven by the option in uploading dialog:
 
-- _binary file_ - uploaded as array of bytes
-- _text file_ - uploaded as array of strings where each string is in the array is a line in the text file.
+- _binary file_ - uploaded as an array of bytes
+- _text file_ - uploaded as an array of strings where each string is in the array is a line in the text file.
 
-The plugin tries to guess a file type but please make sure that the type is correct before uploading the file.
+The plugin tries to guess a file type, but please make sure that the type is correct before uploading the file.

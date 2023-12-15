@@ -7,7 +7,7 @@ toc: true
 
 ## Overview
 
-_Table Result_ view is most powerful and complex part of the plugin and have set of elements and toolbars:
+_Table Result_ view is the most powerful and complex part of the plugin and has a set of elements and toolbars:
 
 ![tablesPreview](/assets/images/features/tables/tablesPreview.png)
 
@@ -18,18 +18,18 @@ There you can see:
 - **Status bar** at the bottom
 - **Search bar** at the top (visible only if search is active)
 
-The _Table Result_ view is used to show any table returned from an KDB instance as well as dictionaries or lists, if
+The _Table Result_ view is used to show any table returned from a KDB instance as well as dictionaries or lists, if
 enabled in [configuration](/settings/options).
 
 ## Selection
 
-The _Table Result View_ is cell oriented table and even only one cell can be selected.
+The _Table Result View_ is cell oriented table, and even only one cell can be selected.
 
 You can select range of cells:
 
 - by dragging with left mouse button pressed
 - by selecting the first cell and the last cell in the range with pressed _Shift_ button
-- only subset of rows/columns by holding _Ctrl button_:<br>
+- only a subset of rows/columns by holding _Ctrl button_:<br>
   ![tablesCustomSelection](/assets/images/features/tables/tablesCustomSelection.png)
 
 ## Status Bar
@@ -53,7 +53,7 @@ The _Table Result View_ has _Repeat the Query_ functionality available in
 
 ![tablesRepeatQuery](/assets/images/features/tables/tablesRepeatQuery.png)
 
-This functionality is available only if the _Table Result_ is related to KDB result from real instance. The button is
+This functionality is available only if the _Table Result_ is related to a KDB result from real instance. The button is
 not available for imported or flipped tables, for exmaple.
 {: .notice}
 
@@ -61,14 +61,15 @@ not available for imported or flipped tables, for exmaple.
 
 ### Quick Copy
 
-There are some functionality that is not available though any menu but available in the _Table Result_:
+There are some functionalities that are not available though any menu but available in the _Table Result_:
 
 - **double-click** on any cell does:
     - copy content of the cell
-    - if value of the cell is a table, a dictionary or a vector and appropriate option is enabled
-      in [configuration](/settings/options), open content of the cell in separate tab.
+    - if the value of the cell is a table, a dictionary or a vector and the appropriate option is enabled
+      in [configuration](/settings/options), open the content of the cell in a separate tab.
 
-- **double-click + Alt** - opens content on a cell into main editor. This functionality can be useful if you have log
+- **double-click + Alt** - opens content on a cell into the main editor.
+  This functionality can be useful if you have log
   text in the cell, like JSON message.
 
 ### Advanced Copy
@@ -86,18 +87,22 @@ You can copy select together with column names (by default) or without the heade
 
 ### Filter Content
 
-Like for columns filtering, instead of create new query to KDB you can do quick search in the _Table Result_. You can
+Like for columns filtering, instead of creating a new query to KDB, you can do quick search in the _Table Result_. You can
 enable it by _Ctrl+F_ or from main toolbar:
 
 ![tableFilterContent](/assets/images/features/tables/tableFilterContent.png)
 
-The entire table is searched and there is no possibility to specify which columns to use, but you can search matching
-case, whole word or even by RegEx.
+The entire table is searched but is "Separate by Comma" option is enabled, the searching text is splatted by tokens and 
+only rows contain all the tokens will be shown:
 
-Search could be very expensive for big tables so 'Delay Search Update' functionality has been introduced that is enabled
+![tableFilterContentComma](/assets/images/features/tables/tableFilterContentComma.png)
+
+You can also search matching case, only whole words or use RegEx.
+
+Search could be costly for big tables, so 'Delay Search Update' functionality has been introduced that is enabled
 for any table that has more than 200_000 cells.
-'Delay Search' updates the table only after 300ms after last char has been entered. It allows to reduce UI freezes if
-you enter a search keyword, for exmaple.
+'Delay Search' updates the table only after 300ms after last char has been entered. It allows reducing UI freezes if
+you enter a search keyword, for example.
 {: .notice}
 
 ### Filter Columns
@@ -149,16 +154,15 @@ You can use index column for quick row or set of rows selection.
 You can enable Index Column by default in [configuration](/settings/options).
 {: .notice--info}
 
-### Thousands Separator
+### Thousands' Separator
 
-By default, all numbers are presented in machine form, without thousands separation, so you can enable thousands
-separation in a 'Table Result' in
-the secondary toolbar (or popup menu):
+By default, all numbers are presented in machine form, without thousands' separation, so you can enable thousands'
+separation in a 'Table Result' in the secondary toolbar (or popup menu):
 
 ![tablesThousandsSeparator](/assets/images/features/tables/tablesThousandsSeparator.png)
 
-Thousands separation only shows in the 'Table Result' and copied into clipboard. Exporting data into Excel, CSV or any
-other format always use machine format.
+Thousands' separation only shows in the 'Table Result' and copied into clipboard. Exporting data into Excel, CSV or any
+other format always use a machine format.
 {: .notice--info}
 
 You can enable Index Column by default in [configuration](/settings/options).
@@ -172,6 +176,6 @@ Exactly in this case you can use 'Flip Selected Rows' that opens new tab and tra
 
 ![tablesFlipRows](/assets/images/features/tables/tablesFlipRows.png)
 
-There a row #9 has been flipped into table where each column is a row now and row is a column.
+There a row #9 has been flipped into a table where each column is a row now and row is a column.
 
 The functionality can use useful if you have a table with many columns and would like to compare values of a few rows.

@@ -10,7 +10,7 @@ toc: true
 The best way to get know the _Code Editor_ is to check the official
 documentation: [https://www.jetbrains.com/help/idea/working-with-source-code.html](https://www.jetbrains.com/help/idea/working-with-source-code.html)
 
-Not all features are applicable to Q language but most of them are. Here we will concentrate only on specific
+Not all features are applicable to Q language, but most of them are. Here we will concentrate only on specific
 functionality of the plugin.
 
 Meanwhile, the plugin does full static scan of all Q code and build internal index. The index is used by mostly all
@@ -28,12 +28,12 @@ There are three ways how you can execute a code.
 
 Initiated by _Ctrl+Enter_. If you have no selection, then current line will be executed
 of the whole otherwise. This way sends selected text/line to active [Console](/features/console) and print the result
-there in the console. It's based method of code execution.
+there in the console. It's the base method of code execution.
 
 ### Quick Execute Line/Selection
 
-Initiated by _Shift+Enter_ but instead of sending code to the console it executes
-code 'offline' and displays result in pop-up window with no any footprint in the console:
+Initiated by _Shift+Enter_ but instead of sending code to the console, it executes
+code 'offline' and displays result in a pop-up window with no any footprint in the console:
 
 ![editorExecutionQuick](/assets/images/features/editor/editorExecutionQuick.png)
 
@@ -47,7 +47,7 @@ functionality doesn't work properly:
 
 ### Execute Global Assignment
 
-Initiated by _Ctrl+Shift+Enter_ and executes whole statement till the file root. It's most complex but very useful
+Initiated by _Ctrl+Shift+Enter_ and executes the whole statement till the file root. Its most complex but very useful
 execution type for code editing.
 
 Let's suppose you work on a complex function with some inner function:
@@ -59,7 +59,7 @@ Let's suppose you work on a complex function with some inner function:
  }
 ~~~
 
-When you change the function implementation or even code of the inner function you have to select the whole definition
+When you change the function implementation or even code of the inner function, you have to select the whole definition
 of the root function to redefine the implementation.
 
 With _Execute Global Assignment_ wherever your caret is placed inside the function, all statements will be iterated till
@@ -79,7 +79,7 @@ If a lambda or a variable is defined in one file all usages will be highlighted:
 
 ### Code Analysis
 
-The plugin does static code analysis and shows all found error in editing file:
+The plugin does static code analysis and shows all found errors in editing file:
 
 ![editorAnalysis](/assets/images/features/editor/editorAnalysis.png)
 
@@ -93,30 +93,30 @@ or changing typo in type cast:
 
 ### Code Completion
 
-When you start type of in the editor, the IDEA suggests you most suitable functions based on your enter:
+When you start typing in the editor, the IDEA suggests you most suitable functions based on your entering:
 
 ![editorSuggestion1](/assets/images/features/editor/editorSuggestion1.png)
 
-Code completion works not only for system function (which are supported manually) but also for any other code in a
+Code completion works not only for system functions (which are supported manually) but also for any other code in a
 project:
 
 ![editorSuggestion2](/assets/images/features/editor/editorSuggestion2.png)
 
-You have to enter at least 3 chars to get auto-suggestion. You can press _Ctrl+Space_ to force suggestion for two
-chars.  
+You have to enter at least three chars to get auto-suggestion. You can press _Ctrl+Space_ to force suggestions for two
+chars.
 {: .notice--info}
 
 ### Find and Replace
 
-You can use default _Alt+F7_ hot key to find a variable usages:
+You can use the default _Alt+F7_ hot key to find a variable usages:
 
 ![editorFindAll](/assets/images/features/editor/editorFindAll.png)
 
-Of course, you can do full search with _Shift+Ctrl+F_ as well to see results in separate dialog:
+Of course, you can do full search with _Shift+Ctrl+F_ as well to see results in a separate dialog:
 
 ![editorFind](/assets/images/features/editor/editorFind.png)_
 
-At this moment the plugin doesn't search text files, like csv or txt. We recommend do full search if you have some text
+At this moment the plugin doesn't search text files, like csv or txt. We recommend doing full search if you have some text
 config files in your project.
 {: .notice--warning}
 
@@ -142,7 +142,7 @@ This functionality works for custom variables and system functions as well:
 
 ![editorDocsSystem](/assets/images/features/editor/editorDocsSystem.png)
 
-Documentations for system functions are supported manually and hardcoded in the plugin. If something is wrong - let us
+The documentation for system functions is supported manually and hardcoded in the plugin. If something is wrong - let us
 know.
 {: .notice--info}
 

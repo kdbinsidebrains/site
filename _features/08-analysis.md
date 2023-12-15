@@ -8,7 +8,7 @@ toc: true
 ## Function Dependencies
 You can check all global variables, tables and functions on which another function depends.
 
-You can do that with built-in 'Data Flow from Here...' functionality of Analyze menu:
+You can do that with built-in 'Data Flow from Here...' functionality of the Analysis menu:
 ![menu](/assets/images/features/analysis/menu.png)
 
 The function opens separate 'Analyze Dataflow From' tab and show all dependencies of a function:
