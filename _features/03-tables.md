@@ -165,14 +165,30 @@ Thousands' separation only shows in the 'Table Result' and copied into clipboard
 other format always use a machine format.
 {: .notice--info}
 
-You can enable Index Column by default in [configuration](/settings/options).
+You can enable Thousands' Separator by default in [configuration](/settings/options).
+{: .notice--info}
+
+### Scientific Notation
+
+[Scientific Notation](https://en.wikipedia.org/wiki/Scientific_notation) is a way of expressing large or small decimal numbers in base ten notation. 
+
+The plugin uses lowercase E-notation with 3 digits for tens, like: _1.23e+045_ or _1.23e-045_. 
+
+This functionality is still experimental and disabled by default but can be enabled in the secondary toolbar (or popup menu) of the 'Table Result':
+
+![tablesScientificNotation](/assets/images/features/tables/tablesScientificNotation.png)
+
+Unlike _Thousands' Separator_, scientific notation is used everyther if enabled, including exporting data. 
+{: .notice--info}
+
+You can enable Scientific Notation by default in [configuration](/settings/options).
 {: .notice--info}
 
 ## Transposing Rows
 
-From time to time it may be useful to look at the data from a different angle.
+From time to time, it may be useful to look at the data from a different angle.
 
-Exactly in this case you can use 'Flip Selected Rows' that opens new tab and transpose selected rows into columns:
+Exactly in this case, you can use 'Flip Selected Rows' that opens new tab and transpose selected rows into columns:
 
 ![tablesFlipRows](/assets/images/features/tables/tablesFlipRows.png)
 

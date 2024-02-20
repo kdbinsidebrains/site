@@ -18,9 +18,31 @@ All they are splat by categories for better orientation.
 
 _Console options_ relating to all settings for [Kdb Console](/features/console).
 
-## Execution Options
+## Decimal Format
 
-_Execution Options_ sometimes are more tricky, so it's better to provide some explanation here.
+Allows defined some generator configuration flow displaying decimal numbers in the _Console_ or the _Table Result_ like:
+
+- **Float precision** - that defines how many numbers will be shown. Default value is 7.
+- **Rounding Mode** - if a decimal number has more digits when the number will be rounded. There are a few options that
+  you can use here:
+    - **Up** - Rounding mode to round away from zero.
+    - **Down** - Rounding mode to round towards zero.
+    - **Ceiling** - Rounding mode to round towards positive infinity.
+    - **Floor** - Rounding mode to round towards negative infinity.
+    - **Half Up** - Rounding mode to round towards "nearest neighbor" unless both neighbors are equidistant, in which
+      case round up.
+    - **Half Down** - Rounding mode to round towards "nearest neighbor" unless both neighbors are equidistant, in which
+      case round down.
+    - **Half Even** - Rounding mode to round towards the "nearest neighbor" unless both neighbors are equidistant, in
+      which case, round towards the even neighbor.
+- **Show decimals in scientific notation** - shows all decimal numbers in scientific e-notation if it's less than less
+  or equal 10<sup>-5</sup> or more or equal 10<sup>7</sup>.
+
+## Table Options
+
+Allows changing view of a [Table Result](/features/tables), like table grid, index column, thousands' separator and so on.
+
+## Execution Options
 
 ### Log Queries
 
@@ -67,7 +89,8 @@ try to execute the same code from the editor, sometimes it fails.
 
 It happens for two reasons:
 
-1. KDB interpreter doesn't process load instructions (_\l xxxx_) and if the options are enabled, all load instructions are
+1. KDB interpreter doesn't process load instructions (_\l xxxx_) and if the options are enabled, all load instructions
+   are
    converted to system load calls (_system "l xxx"_)
 
 2. The issue is related to closing curly bracket indent placed on new line. Let's suppose you have the following code:
@@ -116,7 +139,8 @@ The plugin provides three options here:
 
 ### Oversized response
 
-The plugin checks the size of a response received from the server. There is nothing wrong with big responses, but as IDEA
+The plugin checks the size of a response received from the server. There is nothing wrong with big responses, but as
+IDEA
 is Java-based application, the application has memory limits, you can easily get OutOfMemory, so the plugin shows a
 warning message if the response is more than a specified threshold:
 
@@ -124,3 +148,7 @@ warning message if the response is more than a specified threshold:
 
 Please check [tricks](/tricks#memory) page to find out how to increase memory for IntelliJ IDEA
 {: .notice--info}
+
+## Inspector Options
+
+Allows changing [Inspector Options](/features/inspector).
