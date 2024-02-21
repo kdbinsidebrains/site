@@ -87,12 +87,13 @@ You can copy select together with column names (by default) or without the heade
 
 ### Filter Content
 
-Like for columns filtering, instead of creating a new query to KDB, you can do quick search in the _Table Result_. You can
+Like for columns filtering, instead of creating a new query to KDB, you can do quick search in the _Table Result_. You
+can
 enable it by _Ctrl+F_ or from main toolbar:
 
 ![tableFilterContent](/assets/images/features/tables/tableFilterContent.png)
 
-The entire table is searched but is "Separate by Comma" option is enabled, the searching text is splatted by tokens and 
+The entire table is searched but is "Separate by Comma" option is enabled, the searching text is splatted by tokens and
 only rows contain all the tokens will be shown:
 
 ![tableFilterContentComma](/assets/images/features/tables/tableFilterContentComma.png)
@@ -161,7 +162,7 @@ separation in a 'Table Result' in the secondary toolbar (or popup menu):
 
 ![tablesThousandsSeparator](/assets/images/features/tables/tablesThousandsSeparator.png)
 
-Thousands' separation only shows in the 'Table Result' and copied into clipboard. Exporting data into Excel, CSV or any
+Thousands' separation only shown in the 'Table Result' and copied into clipboard. Exporting data into Excel, CSV or any
 other format always use a machine format.
 {: .notice--info}
 
@@ -170,15 +171,19 @@ You can enable Thousands' Separator by default in [configuration](/settings/opti
 
 ### Scientific Notation
 
-[Scientific Notation](https://en.wikipedia.org/wiki/Scientific_notation) is a way of expressing large or small decimal numbers in base ten notation. 
+[Scientific Notation](https://en.wikipedia.org/wiki/Scientific_notation) is a way of expressing large or small decimal
+numbers in base ten notation.
 
-The plugin uses lowercase E-notation with 3 digits for tens, like: _1.23e+045_ or _1.23e-045_. 
+The plugin uses lowercase E-notation with 3 digits for tens, like: _1.23e+045_ or _1.23e-045_.
 
-This functionality is still experimental and disabled by default but can be enabled in the secondary toolbar (or popup menu) of the 'Table Result':
+This functionality is still experimental and disabled by default but can be enabled in the secondary toolbar (or popup
+menu) of the 'Table Result':
 
 ![tablesScientificNotation](/assets/images/features/tables/tablesScientificNotation.png)
 
-Unlike _Thousands' Separator_, scientific notation is used everyther if enabled, including exporting data. 
+If _Scientific Notation_ is enabled only in the _Table Result_, then only copied into clipboard in this format.
+Exporting data into Excel, CSV or any other format always use ful decimal format. If the option is enabled in
+[configuration](/settings/options), then all exporting data also will be in scientific notation format.    
 {: .notice--info}
 
 You can enable Scientific Notation by default in [configuration](/settings/options).
