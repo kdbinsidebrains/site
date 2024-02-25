@@ -55,8 +55,8 @@ sidenav:
       - title: "Inspector"
         url: /features/inspector
 
-      - title: "Analysis"
-        url: /features/analysis
+      - title: "Navigation"
+        url: /features/navigation
 
       - title: "Watches"
         url: /features/watches

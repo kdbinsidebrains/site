@@ -106,30 +106,21 @@ You have to enter at least three chars to get auto-suggestion. You can press _Ct
 chars.
 {: .notice--info}
 
-### Find and Replace
-
-You can use the default _Alt+F7_ hot key to find a variable usages:
-
-![editorFindAll](/assets/images/features/editor/editorFindAll.png)
-
-Of course, you can do full search with _Shift+Ctrl+F_ as well to see results in a separate dialog:
-
-![editorFind](/assets/images/features/editor/editorFind.png)_
-
-At this moment the plugin doesn't search text files, like csv or txt. We recommend doing full search if you have some text
-config files in your project.
-{: .notice--warning}
-
-You can also use inline renaming by _Shift+F6_:
-
-![editorRenaming](/assets/images/features/editor/editorRenaming.png)
-
 ### Invoke Parameters
 
 If you invoke a function and not sure about its parameters, you can press _Ctrl+P_ inside invocation brackets to force
 parameters tooltip:
 
 ![editorParametersSuggestion](/assets/images/features/editor/editorParametersSuggestion.png)
+
+### Rename Variable
+
+You can rename any variable by _Shift+F6_:
+
+![editorRenaming](/assets/images/features/editor/editorRenaming.png)
+
+For more andanced search and renaming functionality, please
+check [Find & Rename](/features/navigation#Find%20&%20Rename) in [Navigation](/features/navigation) feature.
 
 ### Code Documentation
 
