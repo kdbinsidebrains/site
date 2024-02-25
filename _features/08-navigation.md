@@ -20,7 +20,7 @@ At this moment the plugin doesn't search text files, like csv or txt. We recomme
 text config files in your project.
 {: .notice--warning}
 
-## Call Hierarchy
+### Call Hierarchy
 
 Any option for find usages or a variable is to build calls hierarchy for the variable.
 
