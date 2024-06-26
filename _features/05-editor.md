@@ -65,6 +65,13 @@ of the root function to redefine the implementation.
 With _Execute Global Assignment_ wherever your caret is placed inside the function, all statements will be iterated till
 root assignment and all root assignment code will be executed redefining the _.my.func_ function.
 
+### Execute File
+
+Initiated by _Ctrl + Alt + F10_. Can be initiated from an editor's popup menu, editor's tab popup menu or from 
+project view.
+
+Sends content of whole file to active instance till the end or till 'exit the script' command (\).   
+
 ## Editing Features
 
 ### Navigation
