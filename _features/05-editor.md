@@ -70,7 +70,17 @@ root assignment and all root assignment code will be executed redefining the _.m
 Initiated by _Ctrl + Alt + F10_. Can be initiated from an editor's popup menu, editor's tab popup menu or from 
 project view.
 
-Sends content of whole file to active instance till the end or till 'exit the script' command (\).   
+Sends content of whole file to active instance till the end or till 'exit the script' command:
+~~~ q
+line 1
+line 2
+...
+line N
+\
+All content after the exist the scipt command is ignored 
+and 
+won't be sent to the instance.
+~~~
 
 ## Editing Features
 
