@@ -7,7 +7,7 @@ toc: true
 
 ## Overview
 
-Another functionality available from [Table Result](/features/tables) is charting that can be invoked from the main 
+Another functionality available from [Table Result](/features/tables) is charting that can be invoked from the main
 toolbar or from the pop-up menu:
 
 ![chartingButton](/assets/images/features/charting/chartingButton.png)
@@ -20,26 +20,50 @@ Charting is shown in separate windows and has own configuration and toolbars:
 
 ### Line Chart
 
-There are 3 main parts of any Line Charting:
+There are four main parts of any Line Charting:
 
 ![chartingLineSettings](/assets/images/features/charting/chartingLineSettings.png)
 
-- **Domain axis** - any temporal or numerical column can be used as Domain or X axis
-- **Series definition** - Each series has a separate range on Y axis. usually you need only one, but if you have price and
-  size series with differ Y range, you can use differ series to show differ ranges on the same chart
-- **Range axes** - is exactly range axes, but you must select which Series its belong to show it on the chart.
+#### Domain axis
 
-For example, for the following price/size data, you can draw the following chart if only one series is used:
+The 'X' range of the chart. Any temporal or numerical column can be used as the Domain.
 
-![chartingLineWrong](/assets/images/features/charting/chartingLineWrong.png)
+![chartingLineSettingsDomain](/assets/images/features/charting/chartingLineSettingsDomain.png)
 
-As you can see, as price and size have differed ranges, the chart is useless. To fix the issue, you can move size axis to
-another series with own configuration:
+#### Series definition
 
-![chartingLineCorrect](/assets/images/features/charting/chartingLineCorrect.png)
+Each series has a separate range on Y axis.
 
-and here you can see _Price_ series on the left side and _Size_ series (you can rename series by double-click on the
-cell) shown on the same chart but own range is used.
+Usually you need only one, but if you have price and size series with differed Y range, you can use differ series to
+show differ ranges on the same chart.
+
+Start typing into the empty 'Name' box to create a new Series or change the name of exist one:
+![chartingLineSettingsSeries](/assets/images/features/charting/chartingLineSettingsSeries.png)
+
+There is a sample of wrong price/size charting when both values are shown in the same Series:
+![chartingLineSeriesWrong](/assets/images/features/charting/chartingLineSeriesWrong.png)
+
+Moving prices and sizes into dedicated Series resolves the issue and creates own axis for each data range:
+![chartingLineSeries](/assets/images/features/charting/chartingLineSeriesCorrect.png)
+
+#### Values Axes
+
+To show the value on the chart, select the appropriate Series which the value belongs to add it into the chart.
+
+#### Values Expansion
+Sometimes you need to expand your data by another column, like _side_ or _instrument_. Instead of regenerating the 
+whole dataset, you can use the _Values Expansion_ section.
+
+Any _symbol_, _char_ or _string_ column can be used to expand the original data, but please pay attention to the number 
+of _Distinct Values_ for each as each expansion will increase the number of lines by _Distinct Values_ times.
+
+The following example shows how to draw prices by the side (bid and ask) at the same chart:
+![chartingLineExpansion](/assets/images/features/charting/chartingLineExpansion.png)
+
+#### Charting style
+You can change the style of each line by clicking on the legend title:
+
+![chartingLineStyle](/assets/images/features/charting/chartingLineStyle.png)
 
 ### Candlestick Chart
 
@@ -71,7 +95,8 @@ You can use the right mouse button drag to zoom an area of a chart.
 
 ### Overview
 
-**Chart Templates** functionality allows you to create a template based on the current chart and simple select the template
+**Chart Templates** functionality allows you to create a template based on the current chart and simple select the
+template
 for the same dataset to draw a chart.
 
 A _Chart Template_ identifies a set of columns and other chart settings. You can apply a template only to a dataset with
@@ -109,14 +134,16 @@ or from [Table Result](/features/tables) pop-up menu:
 
 ![templateManagerTableResult](/assets/images/features/charting/templateManagerTableResult.png)
 
-In the _Templates Manager_ you can rename or change the description of any template as well as check its configuration. You
+In the _Templates Manager_ you can rename or change the description of any template as well as check its configuration.
+You
 can also permanently remove any template or hide it from quick popup actions:
 
 ![templatesManager](/assets/images/features/charting/templatesManager.png)
 
 ### Quick Actions
 
-When 'quick popup actions' is enabled for a template at creation time or later in the _Templates Manager_, the appropriate
+When 'quick popup actions' is enabled for a template at creation time or later in the _Templates Manager_, the
+appropriate
 template will be shown in the quick popup menu shown in [Table Result](/features/tables):
 
 ![templateManagerTableResult](/assets/images/features/charting/templateManagerTableResult.png)
