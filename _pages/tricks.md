@@ -12,7 +12,7 @@ toc: true
 
 ### Memory
 
-As IDEA is Java-based application, the application has memory limits you can get OutOfMemory. You can increase
+As IDEA is a Java-based application, the application has memory limits you can get OutOfMemory. You can increase
 memory limits for the IDEA from **_Help->Change Memory Settings_** menu:
 
 ![tricksMemory](/assets/images/tricks/tricksMemory.png)

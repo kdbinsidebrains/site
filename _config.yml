@@ -59,9 +59,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 analytics:
   provider: "google"
   google:
-    tracking_id: "G-NBP5DJD8YK"
+    tracking_id: ${{ vars.TRACKING_ID }}
 
-google_site_verification: "hfSMgHF5JQquc-Sk0qzuihyneHHrfpiRLXwfz3fkICw"
+google_site_verification: ${{ vars.SITE_VERIFICATION }}
 
 # Outputting
 permalink: /:categories/:title
@@ -75,21 +75,21 @@ plugins:
 
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/kdbinsidebrains/plugin"
-
     - label: "Plugin"
-      icon: "fa fa-fw fa-play"
+      icon: "fa-solid fa-play"
       url: "https://plugins.jetbrains.com/plugin/16746-kdbinsidebrains"
 
-    - label: "Issue"
-      icon: "fa fa-fw fa-bug"
-      url: "https://github.com/kdbinsidebrains/plugin/issues"
+    - label: "Trainings"
+      icon: "fa-solid fa-graduation-cap"
+      url: "/trainings"
 
-    - label: "Donation"
-      icon: "fab fa-fw fa-paypal"
-      url: "https://www.paypal.com/donate/?hosted_button_id=C3LPP5FJ9T5NJ"
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/kdbinsidebrains/plugin"
+
+    - label: "Issue"
+      icon: "fa-solid fa-bug"
+      url: "https://github.com/kdbinsidebrains/plugin/issues"
 
 # Conversion
 markdown: kramdown
@@ -117,6 +117,9 @@ collections:
     output: true
     permalink: /:collection/:path
   settings:
+    output: true
+    permalink: /:collection/:path
+  trainings:
     output: true
     permalink: /:collection/:path
 
@@ -150,6 +153,15 @@ defaults:
   - scope:
       path: ""
       type: settings
+    values:
+      layout: single
+      sidebar:
+        nav: "sidenav"
+
+  # _trainings
+  - scope:
+      path: ""
+      type: trainings
     values:
       layout: single
       sidebar:

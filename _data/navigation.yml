@@ -14,6 +14,9 @@ main:
   - title: "Tricks"
     url: /tricks
 
+  - title: "Trainings"
+    url: /trainings
+
 sidenav:
   - title: Getting Started
     children:
@@ -84,12 +87,8 @@ sidenav:
   - title: Tricks
     url: /tricks
 
+  - title: Trainings
+    url: /trainings
+
   - title: About
-    children:
-      - title: "Features"
-        url: /about#notable-features
-
-      - title: "Feel grateful?"
-        url: /about#feel-grateful
-
-
+    url: /about
