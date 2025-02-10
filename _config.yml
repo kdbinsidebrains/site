@@ -59,9 +59,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 analytics:
   provider: "google"
   google:
-    tracking_id: ${{ vars.TRACKING_ID }}
+    tracking_id: "G-NBP5DJD8YK"
 
-google_site_verification: ${{ vars.SITE_VERIFICATION }}
+google_site_verification: "hfSMgHF5JQquc-Sk0qzuihyneHHrfpiRLXwfz3fkICw"
 
 # Outputting
 permalink: /:categories/:title
