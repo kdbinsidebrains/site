@@ -37,14 +37,14 @@ feature_row:
     url: "/features/charting"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-
-  - image_path: /assets/images/distributed.png
-    alt: "distributed instances"
-    title: "Instances Anywhere"
-    excerpt: "You can set up many scopes with any instances and all in one place. Connect to one or to all at once. You don't have to choose which keep active."
-    url: "/features/instances"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+  #
+  #  - image_path: /assets/images/distributed.png
+  #    alt: "distributed instances"
+  #    title: "Instances Anywhere"
+  #    excerpt: "You can set up many scopes with any instances and all in one place. Connect to one or to all at once. You don't have to choose which keep active."
+  #    url: "/features/instances"
+  #    btn_class: "btn--primary"
+  #    btn_label: "Learn more"
 
   - image_path: /assets/images/configuration.png
     alt: "flexible Configuration"
@@ -59,6 +59,14 @@ feature_row:
     title: "100% Free"
     excerpt: "Free to use and fully compatible with JetBrains IDEA Community Edition that can be used anywhere. We work for cookies."
     url: "/about#feel-grateful"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+
+  - image_path: /assets/images/trainings.png
+    alt: "Trainings"
+    title: "Trainings"
+    excerpt: "Even for free plugin sometimes it's easier to get external help. We offer training sessions for corporate clients to enhance development speed using the plugin."
+    url: "/trainings"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
