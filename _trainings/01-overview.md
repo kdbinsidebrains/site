@@ -24,9 +24,9 @@ We provide all trainings online worldwide, or we also can do on-site trainings f
 
 We have a set of sections that we can include in the training and for whom these sections are most appropriate.
 
-| Topic        | Description                                                   | Estimated time, min | Q Developers | Analysts | Users |
-|--------------|---------------------------------------------------------------|---------------------|:------------:|:--------:|:-----:|
-| Installation | Plugin installation: modules, faces, configuration of KDB SDK | 30                  |     Yes      |   Yes    |  Yes  |
+| Topic        | Description                                    | Estimated time, min | Developers | Analysts | Users |
+|--------------|------------------------------------------------|---------------------|:----------:|:--------:|:-----:|
+| Installation | Creation modules, faces, KDB SDK configuration | 30                  |    Yes     |   Yes    |  Yes  |
 
 if you're interested in training, please contact our team
 by [training@kdbinsidebrains.dev](mailto:training@kdbinsidebrains.dev) 
