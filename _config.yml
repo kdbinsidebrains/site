@@ -113,12 +113,19 @@ collections:
   project:
     output: true
     permalink: /:collection/:path
+
   features:
     output: true
     permalink: /:collection/:path
+
   settings:
     output: true
     permalink: /:collection/:path
+
+  testing:
+    output: true
+    permalink: /:collection/:path
+
   trainings:
     output: true
     permalink: /:collection/:path
@@ -153,6 +160,15 @@ defaults:
   - scope:
       path: ""
       type: settings
+    values:
+      layout: single
+      sidebar:
+        nav: "sidenav"
+
+  # _testing
+  - scope:
+      path: ""
+      type: testing
     values:
       layout: single
       sidebar:

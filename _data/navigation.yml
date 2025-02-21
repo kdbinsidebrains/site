@@ -8,11 +8,11 @@ main:
   - title: "Features"
     url: /features/instances
 
+  - title: "Testing"
+    url: /testing
+
   - title: "Settings"
     url: /settings/options
-
-  - title: "Tricks"
-    url: /tricks
 
   - title: "Trainings"
     url: /trainings
@@ -64,6 +64,9 @@ sidenav:
       - title: "Watches"
         url: /features/watches
 
+  - title: Testing
+    url: /testing
+
   - title: Settings
     children:
       - title: "Options"
@@ -83,9 +86,6 @@ sidenav:
 
       - title: "Notifications"
         url: /settings/notifications
-
-  - title: Tricks
-    url: /tricks
 
   - title: Trainings
     url: /trainings

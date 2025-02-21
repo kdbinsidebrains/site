@@ -5,7 +5,6 @@ toc: true
 excerpt: "Some tricks for the plugin and IDEA"
 sidebar:
     nav: "sidenav"
-toc: true
 ---
 
 ## IDEA Tricks
